@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  #controls {
+    margin-bottom: 2em;
+  }
+  
+  label {
+    margin-right: 0.5em;
+  }
+  
+  button {
+    margin-left: 0.5em;
+    padding: 0.5em 1em;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #hotel-structure {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+  }
+  
+  .room {
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e9ecef;
+  }
+  
+  .room.booked {
+    background-color: #dc3545;
+    color: white;
+  }
+  
